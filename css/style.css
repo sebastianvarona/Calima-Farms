@@ -590,6 +590,30 @@ main .banner-PRO {
   background-image: url(../img/fondoaguacate2.png);
 }
 
+main .portafolioCompleto {
+  background-image: url(../img/banner6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: darken;
+}
+
+main .portafolioCompleto .col-3 {
+  margin: 20px 0;
+  padding: 0 40px;
+}
+
+main .portafolioCompleto .col-3 img {
+  width: 100%;
+}
+
+main .portafolioCompleto .col-3 p {
+  margin-top: 10px;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 0 6px;
+}
+
 footer .contacto {
   background-color: whitesmoke;
   padding: 10px 0;

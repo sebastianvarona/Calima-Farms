@@ -28,6 +28,10 @@ header .menu .logo img {
   width: 80%;
 }
 
+header .menu .navbar .navbar-nav .activo {
+  border-bottom: 3px solid #bc8f53 !important;
+}
+
 header .menu .navbar .navbar-nav .nav-link {
   border: 3px solid white;
   white-space: nowrap;
@@ -187,6 +191,7 @@ main {
   /** NUESTRA PLANTA **/
   /** SERVICIOS **/
   /** BANNER PRODUCTOS **/
+  /** DESARROLLO SOCIAL **/
 }
 
 main .banner {
@@ -612,6 +617,14 @@ main .portafolioCompleto .col-3 img {
 main .portafolioCompleto .col-3 p {
   margin-top: 10px;
   text-shadow: rgba(0, 0, 0, 0.5) 0 0 6px;
+}
+
+main .banner-DES {
+  background-image: url(../img/fondolimon.png);
+}
+
+main .rural {
+  background-color: #ECF8F8;
 }
 
 footer .contacto {

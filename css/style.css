@@ -1,0 +1,628 @@
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+}
+
+header {
+  position: relative;
+  /** ANIMACIONES **/
+}
+
+header .menu {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .menu .logo {
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 0 0 40px 40px;
+  padding: 25px 0px;
+  width: 20%;
+}
+
+header .menu .logo img {
+  height: 100%;
+  width: 80%;
+}
+
+header .menu .navbar .navbar-nav .nav-link {
+  border: 3px solid white;
+  white-space: nowrap;
+  background-color: #ffffff;
+}
+
+header .menu .navbar .navbar-nav .nav-link:hover {
+  border-bottom: 3px solid #bc8f53;
+}
+
+header .menu .navbar .navbar-nav .primero {
+  border-radius: 50px 0 0 50px;
+  padding-left: 20px;
+}
+
+header .menu .navbar .navbar-nav .ultimo {
+  border-radius: 0 50px 50px 0;
+  padding-right: 20px;
+}
+
+header .animacionLogo {
+  opacity: 0;
+  -webkit-animation: animacioLogo 0.5s forwards 1s ease;
+          animation: animacioLogo 0.5s forwards 1s ease;
+}
+
+@-webkit-keyframes animacioLogo {
+  0% {
+    -webkit-transform: translateY(-250px);
+            transform: translateY(-250px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes animacioLogo {
+  0% {
+    -webkit-transform: translateY(-250px);
+            transform: translateY(-250px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+header .animacionMenu {
+  opacity: 0;
+  -webkit-animation: AnimacionMenu .5s forwards 1s ease;
+          animation: AnimacionMenu .5s forwards 1s ease;
+}
+
+@-webkit-keyframes AnimacionMenu {
+  0% {
+    -webkit-transform: translateY(-250px);
+            transform: translateY(-250px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes AnimacionMenu {
+  0% {
+    -webkit-transform: translateY(-250px);
+            transform: translateY(-250px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.titulo-verde {
+  margin-top: 100px;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+  color: #34893D;
+}
+
+.titulo-dorado {
+  margin-top: 100px;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+  color: #bc8f53;
+}
+
+.parrafo {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #6c757d;
+  text-align: center;
+  margin: 20px 0 40px 0;
+}
+
+.verde {
+  color: #34893D;
+}
+
+.dorado {
+  color: #bc8f53;
+}
+
+.cutter {
+  position: relative;
+  top: 2px;
+  width: 100%;
+}
+
+.cutter img {
+  width: 100%;
+}
+
+.cutter-inv {
+  position: relative;
+  bottom: 2px;
+  width: 100%;
+}
+
+.cutter-inv img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  width: 100%;
+}
+
+.ver-mas {
+  background-color: #34893D;
+  text-decoration: none;
+  -webkit-transition: ease .3s;
+  transition: ease .3s;
+  margin: 0 auto;
+  display: inline-block;
+  border: 3px solid #34893D;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 40px;
+}
+
+.ver-mas:hover {
+  background-color: white;
+  color: #34893D;
+}
+
+main {
+  /** BANNER **/
+  /** INDEX **/
+  /** ANIMACIONES **/
+  /** NUESTRA PLANTA **/
+  /** SERVICIOS **/
+  /** BANNER PRODUCTOS **/
+}
+
+main .banner {
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+main .banner .descripcion {
+  height: 592px;
+}
+
+main .banner .descripcion h1 {
+  position: absolute;
+  top: 300px;
+  right: 82px;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 0 10px;
+}
+
+main .banner-titulo {
+  background-image: url(../img/portada4.jpg);
+  background-position-y: -300px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+main .descripcion-titulo h1 {
+  margin: 300px 0 50px 0;
+  font-size: 3rem;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 0 10px;
+}
+
+main .descripcion-titulo .lang {
+  margin-bottom: 100px;
+}
+
+main .descripcion-titulo .lang a {
+  color: white;
+  background-color: #ffffff4d;
+  padding: 5px 15px;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  border-radius: 35px;
+  border: 2px solid white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+main .animacionLogo {
+  opacity: 0;
+  -webkit-animation: animacioLogo 0.5s forwards 1s ease;
+          animation: animacioLogo 0.5s forwards 1s ease;
+}
+
+@keyframes animacioLogo {
+  0% {
+    -webkit-transform: translateY(-250px);
+            transform: translateY(-250px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+main .animacionMenu {
+  opacity: 0;
+  -webkit-animation: AnimacionMenu .5s forwards 1s ease;
+          animation: AnimacionMenu .5s forwards 1s ease;
+}
+
+@keyframes AnimacionMenu {
+  0% {
+    -webkit-transform: translateY(-250px);
+            transform: translateY(-250px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+main .animacionDescripcion {
+  opacity: 0;
+  -webkit-animation: animacionDescripcion .5s forwards 1s linear;
+          animation: animacionDescripcion .5s forwards 1s linear;
+}
+
+@-webkit-keyframes animacionDescripcion {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes animacionDescripcion {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+main .quienes-somos .container .row .fondo1 {
+  opacity: 0;
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/banner3.png);
+}
+
+main .quienes-somos .container .row .fondo2 {
+  opacity: 0;
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/banner7.png);
+}
+
+main .quienes-somos .container .row .plano {
+  opacity: 0;
+}
+
+main .quienes-somos .container .row .fondo1xs {
+  background-attachment: fixed;
+  background-position: bottom;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/banner3.png);
+}
+
+main .quienes-somos .container .row .fondo2xs {
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/banner7.png);
+}
+
+main .quienes-somos .container .row .animacionArticulo {
+  -webkit-animation: animacionArticulo 0.5s forwards 0s ease;
+          animation: animacionArticulo 0.5s forwards 0s ease;
+}
+
+@-webkit-keyframes animacionArticulo {
+  0% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes animacionArticulo {
+  0% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+main .portafolio {
+  background-color: gray;
+  background-image: url(../img/portada-fruta.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .portafolio .carousel-control-next, main .portafolio .carousel-control-prev {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+main .portafolio .carousel-control-next .carousel-control-next-icon, main .portafolio .carousel-control-prev .carousel-control-next-icon {
+  margin-right: 20px;
+  margin-left: auto;
+}
+
+main .portafolio .carousel-control-prev, main .portafolio .carousel-control-prev {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+main .portafolio .carousel-control-prev .carousel-control-prev-icon, main .portafolio .carousel-control-prev .carousel-control-prev-icon {
+  margin-left: 20px;
+}
+
+main .portafolio .enlace > a {
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: white;
+  background-color: #bc8f53;
+  border: 3px solid #bc8f53;
+  -webkit-transition: ease .3s;
+  transition: ease .3s;
+}
+
+main .portafolio .enlace > a:hover {
+  background-color: white;
+  color: #bc8f53;
+}
+
+main .servicios {
+  /** Animaciones **/
+}
+
+main .servicios img {
+  max-width: 160px;
+  height: 160px;
+}
+
+main .servicios .serv {
+  opacity: 0;
+}
+
+main .servicios .serv p {
+  font-size: 1.5rem;
+}
+
+main .servicios .enlace > a {
+  text-decoration: none;
+  color: white;
+  background-color: #34893D;
+  border: 2px solid #34893D;
+  border-radius: 35px;
+  -webkit-transition: ease .3s;
+  transition: ease .3s;
+}
+
+main .servicios .enlace > a:hover {
+  background-color: white;
+  color: #34893D;
+}
+
+main .servicios .itemServicios {
+  -webkit-animation: animacionServicios .3s forwards 0s ease;
+          animation: animacionServicios .3s forwards 0s ease;
+}
+
+@-webkit-keyframes animacionServicios {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: rotate(xx) scale(1);
+            transform: rotate(xx) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes animacionServicios {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: rotate(xx) scale(1);
+            transform: rotate(xx) scale(1);
+    opacity: 1;
+  }
+}
+
+main .banner-NP {
+  background-image: url("../img/fondoUva.png");
+}
+
+main .nosotros .row .col-12 img {
+  width: 100%;
+  max-height: 289px;
+  margin-bottom: 25px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 10px;
+          box-shadow: rgba(0, 0, 0, 0.5) 0 0 10px;
+  border-radius: 8px;
+}
+
+main .operacion {
+  background-color: #ECF8F8;
+}
+
+main .operacion .row {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+main .operacion .row .logito {
+  max-width: 219px;
+}
+
+main .operacion .row img {
+  width: 100%;
+  border-radius: 100%;
+  border: 5px #bc8e53a6 solid;
+}
+
+main .operacion .row .descripcion-logito {
+  display: inline-block;
+}
+
+main .banner-SER {
+  background-image: url(../img/fondoabeja@2x.png);
+}
+
+main .row {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+main .row .logito {
+  max-width: 219px;
+  border-radius: 100%;
+}
+
+main .row .logito img {
+  width: 90%;
+}
+
+main .row .logito .descripcion-logito {
+  display: inline-block;
+}
+
+main .interesado {
+  text-align: center;
+  color: #6c757d;
+}
+
+main .interesado a {
+  color: #bc8f53;
+}
+
+main .galeria {
+  background-color: #00000063;
+  background-image: url(../img/fondogaleria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-blend-mode: darken;
+  padding-bottom: 80px;
+}
+
+main .galeria h2, main .galeria p {
+  color: white !important;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 0 10px;
+}
+
+main .galeria .carousel-control-prev {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+main .galeria .carousel-control-prev-icon {
+  margin-left: 20px;
+}
+
+main .galeria .carousel-control-next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+main .galeria .carousel-control-next-icon {
+  margin-right: 20px;
+}
+
+main .banner-PRO {
+  background-image: url(../img/fondoaguacate2.png);
+}
+
+footer .contacto {
+  background-color: whitesmoke;
+  padding: 10px 0;
+}
+
+footer .contacto i {
+  line-height: 0;
+}
+
+footer .contacto a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .footer {
+  padding: 20px 0;
+}
+
+footer .footer .logo-hor img {
+  width: 80%;
+}
+
+footer .footer p {
+  font-size: .8rem;
+}
+
+footer .footer i {
+  line-height: 0;
+  font-size: 1.7rem;
+  color: #1b521a;
+}
+
+footer .footer i:hover {
+  color: #1b521acb;
+}
+/*# sourceMappingURL=style.css.map */

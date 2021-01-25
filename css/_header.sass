@@ -1,0 +1,59 @@
+$verde-claro: #34893D
+$dorado: #bc8f53
+
+header
+    position: relative
+    .menu
+        justify-content: space-between
+
+        .logo
+            position: absolute
+            background-color: #ffffff
+            border-radius: 0 0 40px 40px
+            padding: 25px 0px
+            width: 20%
+            img
+                height: 100%
+                width: 80%
+
+        .navbar
+            .container-fluid
+
+            .navbar-nav
+                .nav-link
+                    border: 3px solid white
+                    white-space: nowrap
+                    background-color: #ffffff
+                    &:hover
+                        border-bottom: 3px solid $dorado
+
+                .primero
+                    border-radius: 50px 0 0 50px
+                    padding-left: 20px
+
+                .ultimo
+                    border-radius: 0 50px 50px 0
+                    padding-right: 20px
+
+    /** ANIMACIONES **/
+    .animacionLogo
+        opacity: 0
+        animation: animacioLogo 0.5s forwards 1s ease
+
+    @keyframes animacioLogo
+        0%
+            transform: translateY(-250px)
+        100%
+            transform: translateY(0)
+            opacity: 1
+
+    .animacionMenu
+        opacity: 0
+        animation: AnimacionMenu .5s forwards 1s ease
+
+    @keyframes AnimacionMenu
+        0%
+            transform: translateY(-250px)
+        100%
+            transform: translateY(0)
+            opacity: 1

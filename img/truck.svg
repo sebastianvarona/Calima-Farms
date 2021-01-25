@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="243.608" height="182.772" viewBox="0 0 243.608 182.772">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bc9053;
+      }
+    </style>
+  </defs>
+  <g id="Group_29" data-name="Group 29" transform="translate(-1835.162 -4406.936)">
+    <path id="truck" class="cls-1" d="M0,24.838A22.838,22.838,0,0,1,22.838,2h137.03a22.838,22.838,0,0,1,22.838,22.838V47.677h15.53a22.838,22.838,0,0,1,17.814,8.572L238.6,84.416A22.838,22.838,0,0,1,243.608,98.7v32.72a22.838,22.838,0,0,1-22.838,22.838h-7.613a30.451,30.451,0,1,1-60.9,0H76.128a30.451,30.451,0,1,1-60.872-1.294A22.838,22.838,0,0,1,0,131.417ZM19.7,138.36a30.436,30.436,0,0,1,52.345.67h84.288a30.6,30.6,0,0,1,11.145-11.145V24.838a7.613,7.613,0,0,0-7.613-7.613H22.838a7.613,7.613,0,0,0-7.613,7.613V131.417A7.613,7.613,0,0,0,19.7,138.36Zm163-14.556a30.451,30.451,0,0,1,26.37,15.225H220.77a7.613,7.613,0,0,0,7.613-7.613V98.682a7.613,7.613,0,0,0-1.675-4.75L204.174,65.764a7.613,7.613,0,0,0-5.938-2.862h-15.53ZM45.677,139.03A15.226,15.226,0,1,0,60.9,154.255,15.226,15.226,0,0,0,45.677,139.03Zm137.03,0a15.226,15.226,0,1,0,15.226,15.225A15.225,15.225,0,0,0,182.706,139.03Z" transform="translate(1835.162 4404.936)"/>
+    <g id="Group_25" data-name="Group 25" transform="translate(1885.827 4444.069)">
+      <rect id="Rectangle_32" data-name="Rectangle 32" class="cls-1" width="11" height="84" rx="5.5" transform="translate(36.173 -0.069)"/>
+      <rect id="Rectangle_33" data-name="Rectangle 33" class="cls-1" width="9.58" height="85.656" rx="4.79" transform="translate(76.784 16.267) rotate(60)"/>
+      <g id="Group_19" data-name="Group 19" transform="translate(23.852 54.868)">
+        <rect id="Rectangle_35" data-name="Rectangle 35" class="cls-1" width="8.171" height="25.922" rx="4.086" transform="translate(16.663 0) rotate(40)"/>
+        <rect id="Rectangle_36" data-name="Rectangle 36" class="cls-1" width="8.171" height="25.922" rx="4.086" transform="translate(36.447 19.858) rotate(140)"/>
+      </g>
+      <g id="Group_20" data-name="Group 20" transform="translate(23.852 3.587)">
+        <rect id="Rectangle_35-2" data-name="Rectangle 35" class="cls-1" width="8.171" height="25.922" rx="4.086" transform="translate(0 5.252) rotate(-40)"/>
+        <rect id="Rectangle_36-2" data-name="Rectangle 36" class="cls-1" width="8.171" height="25.922" rx="4.086" transform="translate(19.784 25.11) rotate(-140)"/>
+      </g>
+      <g id="Group_21" data-name="Group 21" transform="matrix(0.454, 0.891, -0.891, 0.454, 66.684, 7.73)">
+        <rect id="Rectangle_35-3" data-name="Rectangle 35" class="cls-1" width="8.171" height="25.922" rx="4.086" transform="translate(19.784 25.11) rotate(-140)"/>
+        <rect id="Rectangle_36-3" data-name="Rectangle 36" class="cls-1" width="8.171" height="25.922" rx="4.086" transform="translate(0 5.252) rotate(-40)"/>
+      </g>
+      <g id="Group_22" data-name="Group 22" transform="translate(39.839 19.13) rotate(117)">
+        <rect id="Rectangle_35-4" data-name="Rectangle 35" class="cls-1" width="8.171" height="25.922" rx="4.086" transform="translate(36.447 19.858) rotate(140)"/>
+        <rect id="Rectangle_36-4" data-name="Rectangle 36" class="cls-1" width="8.171" height="25.922" rx="4.086" transform="translate(16.663 0) rotate(40)"/>
+      </g>
+      <g id="Group_23" data-name="Group 23" transform="translate(84.319 45.24) rotate(120)">
+        <rect id="Rectangle_35-5" data-name="Rectangle 35" class="cls-1" width="8.171" height="25.922" rx="4.086" transform="translate(19.784 25.11) rotate(-140)"/>
+        <rect id="Rectangle_36-5" data-name="Rectangle 36" class="cls-1" width="8.171" height="25.922" rx="4.086" transform="translate(0 5.252) rotate(-40)"/>
+      </g>
+      <g id="Group_24" data-name="Group 24" transform="matrix(-0.485, -0.875, 0.875, -0.485, 17.67, 76.769)">
+        <rect id="Rectangle_35-6" data-name="Rectangle 35" class="cls-1" width="8.171" height="25.922" rx="4.086" transform="translate(19.784 25.11) rotate(-140)"/>
+        <rect id="Rectangle_36-6" data-name="Rectangle 36" class="cls-1" width="8.171" height="25.922" rx="4.086" transform="translate(0 5.252) rotate(-40)"/>
+      </g>
+      <rect id="Rectangle_34" data-name="Rectangle 34" class="cls-1" width="9.58" height="85.656" rx="4.79" transform="translate(81.574 59.095) rotate(120)"/>
+    </g>
+  </g>
+</svg>

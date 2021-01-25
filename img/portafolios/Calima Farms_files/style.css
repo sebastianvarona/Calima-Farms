@@ -1,0 +1,447 @@
+/*-----Colores-----*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-image: url(../../img/fruit-2.png);
+  background-size: 350px;
+  background-color: white;
+}
+
+body hr {
+  color: whitesmoke;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+body h1, body h2, body h3, body h4 {
+  font-size: 3em;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+header {
+  padding: 40px 0;
+  background-color: white;
+  /*----Lo hice haciendo un div para el espacio porque chrome presenta un error con el justify content right----*/
+}
+
+header .contenedor {
+  width: 90%;
+  max-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+}
+
+header a {
+  color: #1B521A;
+}
+
+header .menuEsp {
+  font-size: 15px;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .menuEsp .espaciado {
+  width: 1px;
+}
+
+header .menuIzq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .menuIzq a {
+  margin-right: 15px;
+}
+
+header img {
+  width: 20%;
+}
+
+header .menuDer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .menuDer a {
+  margin-left: 15px;
+}
+
+main .cont {
+  width: 90%;
+  max-width: 1000px;
+  padding: 70px 0 70px 0;
+  text-align: center;
+  margin: auto;
+}
+
+main .cont h2, main .cont h3 {
+  font-weight: 400;
+  color: #1B521A;
+  margin: 0 0  40px 0;
+}
+
+main .cont p {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+main .contF {
+  overflow: hidden;
+  background-attachment: fixed;
+  background-color: #11755f69;
+  background-position: top;
+  background-repeat: no-repeat;
+  max-height: 700px;
+  background-size: cover;
+  color: white;
+}
+
+main .contF .contenedor {
+  width: 90%;
+  max-width: 1000px;
+  padding: 70px 0 70px 0;
+  text-align: center;
+  margin: auto;
+}
+
+main .contF h2, main .contF h3 {
+  font-weight: 400;
+  margin: 0 0  40px 0;
+  text-shadow: rgba(0, 0, 0, 0.6) 0 0 6px;
+}
+
+main .contF p {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+main .cont1 {
+  background-image: url(../../img/portada.jpg);
+  background-position: bottom;
+  padding: 80px 0;
+}
+
+main .cont2 {
+  background-image: url(../../img/portada-fruta.png);
+}
+
+main .btn {
+  display: inline-block;
+  border: 2px solid white;
+  padding: 10px 40px;
+  background-color: rgba(230, 230, 230, 0.3);
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.8) 0 0 6px;
+  margin: 7px;
+}
+
+main .btn:hover {
+  text-decoration: none;
+  background-color: white;
+  margin: 2px solid white;
+  color: #1B521A;
+}
+
+main .galeria2 {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .galeria1 {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+main .galeria1 p {
+  font-size: 2em;
+  text-shadow: rgba(0, 0, 0, 0.8) 0 0 6px;
+}
+
+main .galeria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+main .galeria div {
+  display: inline-block;
+  width: 20%;
+}
+
+main .galeria div img {
+  width: 100%;
+}
+
+main .galeria img {
+  width: 20%;
+  margin: 10px 0;
+  min-width: 50px;
+  border-radius: 100%;
+  border: solid 5px #D8DBE2;
+}
+
+footer {
+  background-color: whitesmoke;
+  border-top: solid 5px #D8DBE2;
+}
+
+footer a, footer p {
+  text-decoration: none;
+  color: #1B521A;
+  display: inline-block;
+  margin: auto;
+}
+
+footer .Contacto {
+  margin: auto;
+  padding: 15px 0 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  max-width: 1000px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .Contacto .elemento {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 27%;
+  margin: 15px 0 15px 0;
+  min-width: 257px;
+}
+
+footer .Contacto .elemento .foto {
+  width: 15%;
+}
+
+footer .Contacto .elemento .foto img {
+  margin: auto;
+  width: 100%;
+}
+
+footer .Contacto .elemento p {
+  margin: auto 0;
+}
+
+footer .Contacto .elemento p a {
+  width: 100%;
+}
+
+footer .Contacto .ele1 p {
+  min-width: 191.15px;
+}
+
+footer .Contacto .ele2 p {
+  min-width: 171.517px;
+}
+
+footer .Contacto .ele3 p {
+  min-width: 220.383px;
+}
+
+footer .footer {
+  background-color: white;
+  padding: 30px;
+}
+
+footer .footer p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+footer .footer .logo-redes {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footer .redes {
+  margin: 0px 0;
+}
+
+footer .footer .redes img {
+  margin-left: 10px;
+}
+
+footer .footer .redes img:hover {
+  background-color: #ECF8F8;
+  border-radius: 10%;
+}
+
+.menuF {
+  display: none;
+}
+
+@media screen and (max-width: 926px) {
+  body {
+    font-size: 14px;
+  }
+  header .menuEsp {
+    font-size: 12px;
+  }
+  main .cont1 .contenedor {
+    margin: auto;
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  body {
+    font-size: 14px;
+  }
+  body h1, body h2, body h3, body h4 {
+    font-size: 2em;
+  }
+  body p {
+    font-size: 1em;
+  }
+  header .menuEsp {
+    display: none;
+  }
+  header .contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header img {
+    width: 30%;
+  }
+  .footer .logo-redes p {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .menuF {
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+  }
+  .menuF #btn-menu {
+    display: none;
+  }
+  .menuF .rayas label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menuF .rayas label img {
+    border-radius: 20%;
+  }
+  .menuF .menu {
+    background-color: #ECF8F8;
+    border-radius: 20px;
+    margin-top: 10px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .menuF .menu #contact {
+    border-bottom: none;
+  }
+  .menuF .menu a {
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid #D8DBE2;
+    text-decoration: none;
+    padding: 15px;
+    color: #1B521A;
+  }
+  .menuF .menu a:active {
+    background-color: #D8DBE2;
+  }
+  .menuF #btn-menu:checked ~ .menu {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  header .contenedor {
+    padding: 0 0 0 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  header .contenedor img {
+    width: 140px;
+  }
+  .menuF {
+    right: 0;
+  }
+  main .galeria1 p {
+    font-size: 1.2em;
+  }
+  main .cont p {
+    font-size: 1.2em;
+    line-height: 1.3em;
+  }
+}
+/*# sourceMappingURL=style.css.map */

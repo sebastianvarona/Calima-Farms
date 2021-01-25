@@ -1,0 +1,321 @@
+$verde-claro: #34893D
+$dorado: #bc8f53
+$azul: #ECF8F8
+
+.titulo-verde
+    margin-top: 100px
+    font-size: 2rem
+    text-align: center
+    font-weight: 600
+    color: $verde-claro
+.titulo-dorado
+    margin-top: 100px
+    font-size: 2rem
+    text-align: center
+    font-weight: 600
+    color: $dorado
+.parrafo
+    font-size: 1.25rem
+    font-weight: 300
+    color: #6c757d
+    text-align: center
+    margin: 20px 0 40px 0
+.verde
+    color: $verde-claro
+.dorado
+    color: $dorado
+
+.cutter
+    position: relative
+    top: 2px
+    width: 100%
+    img
+        width: 100%
+
+.cutter-inv
+    position: relative
+    bottom: 2px
+    width: 100%
+    img
+        transform: rotate(180deg)
+        width: 100%
+.ver-mas
+    background-color: $verde-claro
+    text-decoration: none
+    transition: ease .3s
+    margin: 0 auto
+    display: inline-block
+    border: 3px solid $verde-claro
+    padding: 10px 25px
+    color: white
+    border-radius: 40px
+    &:hover
+        background-color: white
+        color: $verde-claro
+
+main
+    /** BANNER **/
+    .banner
+        background-size: cover
+        background-attachment: fixed
+        background-repeat: no-repeat
+
+        .descripcion
+            height: 592px
+
+            h1
+                position: absolute
+                top: 300px
+                right: 82px
+                text-shadow: rgba(0, 0, 0, .5) 0 0 10px
+
+    /** INDEX **/
+    .banner-titulo
+
+        background-image: url(../img/portada4.jpg)
+        background-position-y: -300px
+        background-size: cover
+        background-attachment: fixed
+        background-repeat: no-repeat
+
+    .descripcion-titulo
+        h1
+            margin: 300px 0 50px 0
+            font-size: 3rem
+            text-shadow: rgba(0, 0, 0, .5) 0 0 10px
+
+        .lang
+            margin-bottom: 100px
+            a
+                color: white
+                background-color: #ffffff4d
+                padding: 5px 15px
+                text-shadow: rgba(0, 0, 0, .5) 0 0 5px
+                border-radius: 35px
+                border: 2px solid white
+                text-decoration: none
+                font-size: 18px
+
+    /** ANIMACIONES **/
+    .animacionLogo
+        opacity: 0
+        animation: animacioLogo 0.5s forwards 1s ease
+
+    @keyframes animacioLogo
+        0%
+            transform: translateY(-250px)
+        100%
+            transform: translateY(0)
+            opacity: 1
+
+    .animacionMenu
+        opacity: 0
+        animation: AnimacionMenu .5s forwards 1s ease
+
+    @keyframes AnimacionMenu
+        0%
+            transform: translateY(-250px)
+        100%
+            transform: translateY(0)
+            opacity: 1
+
+    .animacionDescripcion
+        opacity: 0
+        animation: animacionDescripcion .5s forwards 1s linear
+
+    @keyframes animacionDescripcion
+        0%
+            opacity: 0
+
+        100%
+            opacity: 1
+
+    .quienes-somos .container
+        .row
+            .fondo1
+                opacity: 0
+                background-position: center
+                background-blend-mode: darken
+                background-color: rgba(0, 0, 0, .4)
+                background-repeat: no-repeat
+                background-size: cover
+                background-image: url(../img/banner3.png)
+
+            .fondo2
+                opacity: 0
+                background-position: center
+                background-blend-mode: darken
+                background-color: rgba(0, 0, 0, .5)
+                background-repeat: no-repeat
+                background-size: cover
+                background-image: url(../img/banner7.png)
+
+            .plano
+                opacity: 0
+
+            .fondo1xs
+                background-attachment: fixed
+                background-position: bottom
+                background-blend-mode: darken
+                background-color: rgba(0, 0, 0, .2)
+                background-repeat: no-repeat
+                background-size: cover
+                background-image: url(../img/banner3.png)
+
+            .fondo2xs
+                background-attachment: fixed
+                background-position: center
+                background-blend-mode: darken
+                background-color: rgba(0, 0, 0, .2)
+                background-repeat: no-repeat
+                background-size: cover
+                background-image: url(../img/banner7.png)
+
+            .animacionArticulo
+                animation: animacionArticulo 0.5s forwards 0s ease
+
+            @keyframes animacionArticulo
+                0%
+                    transform: translateY(100px)
+
+                100%
+                    transform: translateY(0)
+                    opacity: 1
+
+    .portafolio
+        background-color: gray
+        background-image: url(../img/portada-fruta.png)
+        background-position: top
+        background-repeat: no-repeat
+        background-size: cover
+
+        .carousel-control-next, .carousel-control-prev
+            justify-content: end
+            .carousel-control-next-icon
+                margin-right: 20px
+                margin-left: auto
+
+        .carousel-control-prev, .carousel-control-prev
+            justify-content: start
+            .carousel-control-prev-icon
+                margin-left: 20px
+
+        .enlace > a
+            display: inline-block
+            padding: 10px 25px
+            border-radius: 40px
+            text-decoration: none
+            color: white
+            background-color: $dorado
+            border: 3px solid $dorado
+            transition: ease .3s
+            &:hover
+                background-color: white
+                color: $dorado
+
+    .servicios
+        img
+            max-width: 160px
+            height: 160px
+        .serv
+            opacity: 0
+            p
+                font-size: 1.5rem
+        .enlace > a
+            text-decoration: none
+            color: white
+            background-color: $verde-claro
+            border: 2px solid $verde-claro
+            border-radius: 35px
+            transition: ease .3s
+            &:hover
+                background-color: white
+                color: $verde-claro
+
+        /** Animaciones **/
+
+        .itemServicios
+            animation: animacionServicios .3s forwards 0s ease
+
+        @keyframes animacionServicios
+            0%
+                transform: scale(.5)
+
+            100%
+                transform: rotate(xx) scale(1)
+                opacity: 1
+
+    /** NUESTRA PLANTA **/
+    .banner-NP
+        background-image: url('../img/fondoUva.png')
+
+    .nosotros .row .col-12 img
+        width: 100%
+        max-height: 289px
+        margin-bottom: 25px
+        box-shadow: rgba(0, 0, 0, .5) 0 0 10px
+        border-radius: 8px
+
+    .operacion
+        background-color: $azul
+        .row
+            justify-content: end
+            .logito
+                max-width: 219px
+            img
+                width: 100%
+                border-radius: 100%
+                border: 5px #bc8e53a6 solid
+
+            .descripcion-logito
+                display: inline-block
+
+    /** SERVICIOS **/
+    .banner-SER
+        background-image: url(../img/fondoabeja@2x.png)
+    .row
+        justify-content: end
+        .logito
+            max-width: 219px
+            border-radius: 100%
+
+            img
+                width: 90%
+
+            .descripcion-logito
+                display: inline-block
+    .interesado
+        text-align: center
+        color: #6c757d
+        a
+            color: $dorado
+
+    .galeria
+        background-color: #00000063
+        background-image: url(../img/fondogaleria.jpg)
+        background-repeat: no-repeat
+        background-size: cover
+        background-attachment: fixed
+        background-position: bottom
+        background-blend-mode: darken
+        padding-bottom: 80px
+
+        h2, p
+            color: white !important
+            text-shadow: rgba(0, 0, 0, .5) 0 0 10px
+
+        .carousel-control-prev
+            display: flex
+            justify-content: start
+        .carousel-control-prev-icon
+            margin-left: 20px
+
+        .carousel-control-next
+            display: flex
+            justify-content: end
+        .carousel-control-next-icon
+            margin-right: 20px
+
+    /** BANNER PRODUCTOS **/
+    .banner-PRO
+        background-image: url(../img/fondoaguacate2.png)

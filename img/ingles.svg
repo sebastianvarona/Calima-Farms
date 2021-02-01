@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #335097;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #d94355;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-1" cx="256" cy="256" r="256" transform="translate(200 307)"/>
+    </clipPath>
+  </defs>
+  <g id="ingles" transform="translate(-502 -307)">
+    <g id="Mask_Group_1" data-name="Mask Group 1" class="cls-2" transform="translate(302)">
+      <g id="Ellipse_1" data-name="Ellipse 1" class="cls-1" transform="translate(200 307)">
+        <circle class="cls-5" cx="256" cy="256" r="256"/>
+        <circle class="cls-6" cx="256" cy="256" r="255.5"/>
+      </g>
+      <g id="cruz_blanca_fondo" data-name="cruz blanca fondo" transform="translate(1178.919 5.564) rotate(90)">
+        <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-3" width="77.545" height="863.106" transform="translate(739.634 329.797) rotate(30)"/>
+        <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-3" width="77.545" height="863.106" transform="translate(806.79 1077.269) rotate(150)"/>
+        <path id="Polygon_1" data-name="Polygon 1" class="cls-3" d="M114,0,228,202H0Z" transform="translate(443.436 789.919)"/>
+        <path id="Polygon_2" data-name="Polygon 2" class="cls-3" d="M114,0,228,202H0Z" transform="translate(671.436 661.919) rotate(-180)"/>
+      </g>
+      <g id="cruz_roja_fondo" data-name="cruz roja fondo" transform="translate(1019 107) rotate(90)">
+        <rect id="Rectangle_3-2" data-name="Rectangle 3" class="cls-4" width="46" height="512" transform="translate(564.081 329.797) rotate(30)"/>
+        <rect id="Rectangle_4-2" data-name="Rectangle 4" class="cls-4" width="46" height="512" transform="translate(603.919 773.203) rotate(150)"/>
+      </g>
+      <g id="cruz_blanca" data-name="cruz blanca">
+        <rect id="Rectangle_3-3" data-name="Rectangle 3" class="cls-3" width="152" height="512" transform="translate(380 306)"/>
+        <rect id="Rectangle_4-3" data-name="Rectangle 4" class="cls-3" width="156" height="512" transform="translate(712 484) rotate(90)"/>
+      </g>
+      <g id="cruz_roja" data-name="cruz roja">
+        <rect id="Rectangle_3-4" data-name="Rectangle 3" class="cls-4" width="92" height="512" transform="translate(410 307)"/>
+        <rect id="Rectangle_4-4" data-name="Rectangle 4" class="cls-4" width="92" height="512" transform="translate(712 517) rotate(90)"/>
+      </g>
+    </g>
+  </g>
+</svg>

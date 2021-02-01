@@ -6,6 +6,44 @@ body
     font-family: 'Open Sans', sans-serif
     background-color: white
 
+    /** BOTON FLOTANTE **/
+    #lang
+        display: none
+        position: relative
+        top: 0
+    .boton
+        position: fixed
+        bottom: 30px
+        right: 20px
+        a
+            border-radius: 50%
+            box-shadow: rgba(0, 0, 0, .5) 0 0 5px
+
+        .lang
+            border-radius: 50%
+            box-shadow: rgba(0, 0, 0, .3) 0 0 10px
+
+        .idiomas
+            a
+                transition: all ease .3s
+                width: 40px
+                opacity: 0
+                visibility: hidden
+                display: block
+                margin: -15px 0
+                display: flex
+                justify-content: center
+            &:active
+                opacity: .8
+            img
+                width: 100%
+
+    .presionado
+        a
+            visibility: visible !important
+            opacity: 1 !important
+            margin: 15px 0 !important
+
 @import header
 
 @import main

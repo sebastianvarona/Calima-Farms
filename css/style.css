@@ -3,6 +3,61 @@ body {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   background-color: white;
+  /** BOTON FLOTANTE **/
+}
+
+body #lang {
+  display: none;
+  position: relative;
+  top: 0;
+}
+
+body .boton {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+
+body .boton a {
+  border-radius: 50%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+          box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+}
+
+body .boton .lang {
+  border-radius: 50%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+}
+
+body .boton .idiomas a {
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+  width: 40px;
+  opacity: 0;
+  visibility: hidden;
+  display: block;
+  margin: -15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .boton .idiomas:active {
+  opacity: .8;
+}
+
+body .boton .idiomas img {
+  width: 100%;
+}
+
+body .presionado a {
+  visibility: visible !important;
+  opacity: 1 !important;
+  margin: 15px 0 !important;
 }
 
 header {
@@ -685,6 +740,9 @@ main .contactanos iframe {
   main p {
     font-size: 16px !important;
   }
+  main .servicios img {
+    width: 100px;
+  }
 }
 
 footer {
@@ -736,14 +794,6 @@ footer .footer i:hover {
 }
 
 @media screen and (max-width: 768px) {
-  footer .footer h3 {
-    text-align: center;
-  }
-  footer .footer div {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
   footer .footer .logo-hor {
     display: -webkit-box;
     display: -ms-flexbox;

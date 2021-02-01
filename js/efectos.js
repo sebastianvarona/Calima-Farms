@@ -30,3 +30,12 @@ function mostrarServicios() {
     }
 }
 window.addEventListener('scroll', mostrarServicios);
+
+let lang = document.getElementById('lang'),
+    idiomas = document.querySelector('.idiomas');
+
+lang.addEventListener('click', () => {
+
+    idiomas.classList.toggle('presionado')
+        
+});

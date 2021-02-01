@@ -219,7 +219,7 @@ main .banner .descripcion h1 {
 }
 
 main .banner-titulo {
-  background-image: url(../img/portada4.jpg);
+  background-image: url(../img/fondos/portada4.jpg);
   background-position-y: -300px;
   background-size: cover;
   background-attachment: fixed;
@@ -488,7 +488,7 @@ main .servicios .itemServicios {
 }
 
 main .banner-NP {
-  background-image: url("../img/fondoUva.png");
+  background-image: url("../img/fondos/fondoUva.png");
 }
 
 main .nosotros .row .col-12 img {
@@ -525,7 +525,7 @@ main .operacion .row .descripcion-logito {
 }
 
 main .banner-SER {
-  background-image: url(../img/fondoabeja@2x.png);
+  background-image: url(../img/fondos/fondoabeja@2x.png);
 }
 
 main .row {
@@ -558,7 +558,7 @@ main .interesado a {
 
 main .galeria {
   background-color: #00000063;
-  background-image: url(../img/fondogaleria.jpg);
+  background-image: url(../img/fondos/fondogaleria.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -599,7 +599,7 @@ main .galeria .carousel-control-next-icon {
 }
 
 main .banner-PRO {
-  background-image: url(../img/fondoaguacate2.png);
+  background-image: url(../img/fondos/fondoaguacate2.png);
 }
 
 main .portafolioCompleto {
@@ -612,22 +612,22 @@ main .portafolioCompleto {
   background-blend-mode: darken;
 }
 
-main .portafolioCompleto .col-3 {
+main .portafolioCompleto .col-md-3 {
   margin: 20px 0;
   padding: 0 40px;
 }
 
-main .portafolioCompleto .col-3 img {
+main .portafolioCompleto .col-md-3 img {
   width: 100%;
 }
 
-main .portafolioCompleto .col-3 p {
+main .portafolioCompleto .col-md-3 p {
   margin-top: 10px;
   text-shadow: rgba(0, 0, 0, 0.5) 0 0 6px;
 }
 
 main .banner-DES {
-  background-image: url(../img/fondolimon.png);
+  background-image: url(../img/fondos/fondolimon.png);
 }
 
 main .rural {
@@ -635,7 +635,7 @@ main .rural {
 }
 
 main .banner-CON {
-  background-image: url(../img/fondopiña.png);
+  background-image: url(../img/fondos/fondopiña.png);
 }
 
 main .contactanos ul {
@@ -649,14 +649,41 @@ main .contactanos iframe {
 }
 
 @media screen and (max-width: 992px) {
+  main h2, main h3 {
+    font-size: 1.5rem !important;
+  }
   main .banner .row {
     height: 300px;
   }
   main .banner .descripcion h1 {
     position: relative;
+    text-align: center !important;
     top: 0;
     right: 0;
     margin: auto 0;
+  }
+  main .banner-titulo h1 {
+    font-size: 2rem;
+    margin: 50px 0 10px 0;
+  }
+  main .descripcion-titulo {
+    overflow: hidden !important;
+  }
+  main .lang {
+    margin: 0;
+  }
+  main .lang a {
+    font-size: 14px !important;
+    padding: 3px 7px !important;
+  }
+  main .col-4 {
+    padding: 5px 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main p {
+    font-size: 16px !important;
   }
 }
 
@@ -680,6 +707,8 @@ footer .contacto a {
 
 footer .contacto img {
   width: 50%;
+  max-height: 23px;
+  max-width: 178px;
 }
 
 footer .footer {
@@ -707,6 +736,14 @@ footer .footer i:hover {
 }
 
 @media screen and (max-width: 768px) {
+  footer .footer h3 {
+    text-align: center;
+  }
+  footer .footer div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   footer .footer .logo-hor {
     display: -webkit-box;
     display: -ms-flexbox;

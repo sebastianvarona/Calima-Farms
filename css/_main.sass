@@ -72,7 +72,7 @@ main
     /** INDEX **/
     .banner-titulo
 
-        background-image: url(../img/portada4.jpg)
+        background-image: url(../img/fondos/portada4.jpg)
         background-position-y: -300px
         background-size: cover
         background-attachment: fixed
@@ -247,7 +247,7 @@ main
 
     /** NUESTRA PLANTA **/
     .banner-NP
-        background-image: url('../img/fondoUva.png')
+        background-image: url('../img/fondos/fondoUva.png')
 
     .nosotros .row .col-12 img
         width: 100%
@@ -272,7 +272,7 @@ main
 
     /** SERVICIOS **/
     .banner-SER
-        background-image: url(../img/fondoabeja@2x.png)
+        background-image: url(../img/fondos/fondoabeja@2x.png)
     .row
         justify-content: end
         .logito
@@ -292,7 +292,7 @@ main
 
     .galeria
         background-color: #00000063
-        background-image: url(../img/fondogaleria.jpg)
+        background-image: url(../img/fondos/fondogaleria.jpg)
         background-repeat: no-repeat
         background-size: cover
         background-attachment: fixed
@@ -318,7 +318,7 @@ main
 
     /** BANNER PRODUCTOS **/
     .banner-PRO
-        background-image: url(../img/fondoaguacate2.png)
+        background-image: url(../img/fondos/fondoaguacate2.png)
     .portafolioCompleto
         background-image: url(../img/banner6.png)
         background-repeat: no-repeat
@@ -327,7 +327,7 @@ main
         background-attachment: fixed
         background-color: rgba(0, 0, 0, .2)
         background-blend-mode: darken
-        .col-3
+        .col-md-3
             margin: 20px 0
             padding: 0 40px
             img
@@ -338,13 +338,13 @@ main
 
     /** DESARROLLO SOCIAL **/
     .banner-DES
-        background-image: url(../img/fondolimon.png)
+        background-image: url(../img/fondos/fondolimon.png)
     .rural
         background-color: $azul
 
     /** CONTACTO **/
     .banner-CON
-        background-image: url(../img/fondopiña.png)
+        background-image: url(../img/fondos/fondopiña.png)
     .contactanos
         ul
             margin: 0 0 0 20px
@@ -355,11 +355,29 @@ main
 
     /** MEDIAQUERIES **/
     @media screen and ( max-width: 992px )
+        h2,h3
+            font-size: 1.5rem !important
         .banner
             .row
                 height: 300px
             .descripcion h1
                 position: relative
+                text-align: center !important
                 top: 0
                 right: 0
                 margin: auto 0
+        .banner-titulo h1
+            font-size: 2rem
+            margin: 50px 0 10px 0
+        .descripcion-titulo
+            overflow: hidden !important
+        .lang
+            margin: 0
+            a
+                font-size: 14px !important
+                padding: 3px 7px !important
+        .col-4
+            padding: 5px 0
+    @media screen and ( max-width: 576px )
+        p
+            font-size: 16px !important
